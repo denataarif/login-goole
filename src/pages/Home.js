@@ -34,6 +34,7 @@ const Home = () => {
             profile ? (
                 <div>
                     <p>{profile}</p>
+                    <button onClick={logOut}>Log out</button>
                 </div>
             ) : (<button onClick={logOut}>Log out</button>)
         }
